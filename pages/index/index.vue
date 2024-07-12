@@ -1,26 +1,16 @@
 <template>
 	<view class="content">
-		<image class="logo" src="/static/logo.png"></image>
-		<view class="text-area">
-			<text class="title">{{title}}</text>
-		</view>
+		{{tt}}
+		{{tt}}
+		{{tt}}
+		{{tt}}{{tt}}{{tt}}{{tt}}
+		
 	</view>
 </template>
 
-<script>
-	export default {
-		data() {
-			return {
-				title: 'Hello'
-			}
-		},
-		onLoad() {
-
-		},
-		methods: {
-
-		}
-	}
+<script setup>
+	import {ref} from 'vue'
+	const tt= ref('tt1')
 </script>
 
 <style>
